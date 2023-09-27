@@ -9,15 +9,14 @@
 </head>
   
 <body>
-    <script src="script.js"></script>
 
 <header>
   <nav class="top-nav">
     <ul>
-          <li><a href="aboutMe">About Me</a></li>
+          <li><a href="">About Me</a></li>
           <li><a href="">Projects</a></li>
+          <li><a href="">Testimonials</a></li>
           <li><a href="">Contact</a></li>
-          <li><a href="https://www.instagram.com/madelienee1/">INSTAGRAM</a></li>
       </ul>
       <h1>Madeliene Stiller</h1>
       
@@ -25,11 +24,11 @@
 </header>
 
 <div class="banner">
-<img class="landingImage" src="landingImage.jpg" alt="Desk with laptop">
+<img class="landingImage" src="landingPhoto.jpg" alt="Desk with laptop">
 <div class="intro">
 <h4>Madeliene is currently diving into Full Stack Software Engineering
     with Academy XI. Now taking on limited projects. Based on the Sunshine Coast, QLD.</h3>
-<button id="letsConnect"><a href="mailto:madelienestiller@gmail.com">Let's Connect</a></button>
+<button id="letsConnect">Let's Connect</button>
 </div>
 </div>
 
@@ -48,6 +47,7 @@
 </div>
 </div>
 
+<hr>
 
   <h2 class="experience">Experience</h2>
   
@@ -69,10 +69,29 @@
   <div class="job">
     <h3>The Full Moon Hotel</h3>
     <p>My first job and one with lots of great memories. Starting out as front of house
-        I climbed my way to a Weddings and Functions Supervisor.</p>
+        I climbed my way to a Weddings and Functions Supervisor, organsing and executing events for up to 200 guests.</p>
     </div>
     </div>
 
+    <hr>
+
+    <h2 class="portfolio">Portfolio</h2>
+  <div class="previousProjects">
+  <div class="project">
+  <img src="project1.jpg" alt="dried flowers">
+  <h3>Project One</h3>
+    </div>   
+    <div class="project">
+     <img src="project2.jpg" alt="coffee cup">
+     <h3>Project Two</h3>
+  </div>
+  <div class="project">
+    <img src="project3.jpg" alt="desktop">
+    <h3>Project Three</h3>
+    </div>
+    </div>
+ 
+    <hr>
 
 <div class="social">
   <h2>Follow me on Instagram</h2>
@@ -86,7 +105,41 @@
   <button id="instagramButton"><a href="https://www.instagram.com/madelienee1/">SOCIAL</a></button>
 </div> 
 
+<hr>
+
+<footer>
+<span>&copy Madeliene Stiller 2023</span>
+</footer>
+
+
+<div class="popUpContainer hidden" >
+  <div class="popUp hidden">
+<div class="contactPopup">
+    <div class="formPopup" id="popupForm">
+      <form action="/action_page.php" class="formContainer">
+        <h2>Get in touch</h2>
+        <label for="Name">
+          <strong>Full name</strong>
+        </label>
+        <input type="name" id="name" placeholder="full name" name="name" required>
+        <label for="email">
+          <strong>E-mail address</strong>
+        </label>
+        <input type="text" id="email" placeholder="email address" name="email" required>
+        <label for="message">
+          <strong>Message</strong>
+        </label>
+        <input type="text" id="message" placeholder="Tell us a bit about your project" name="message" required>
+        <button type="button" class="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+
+</div>
+
+
 </body>
+<script src="script.js"></script>
 
 </html>
 
