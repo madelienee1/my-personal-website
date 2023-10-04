@@ -256,3 +256,10 @@ hr {
     border: 0;
     box-shadow: 0 10px 10px -10px grey inset;
 }
+
+#map {
+    height: 400px;
+    width: 25%;
+    margin-left: 10rem;
+
+}
